@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: PassGen
+  datasource:
+    url: jdbc:mysql://localhost:3306/PasswordDB
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
